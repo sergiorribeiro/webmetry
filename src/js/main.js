@@ -1,3 +1,4 @@
+// to refactor
 function Webmetry(conf) {
   var self = this;
   self.currentLine = null;
@@ -215,7 +216,7 @@ function Webmetry(conf) {
     });
     var ils = document.createElement("STYLE");
     ils.type = "text/css";
-    ils.innerHTML = ".webmetry_vline,.webmetry_hline{user-select: none;} .webmetry_vline:after,.webmetry_vline:before,.webmetry_hline:after,.webmetry_hline:before{position:absolute;font-size:9px;font-family:monospace;} .webmetry_hline:after,.webmetry_hline:before{left:50%;} .webmetry_vline:after,.webmetry_vline:before{top:50%;} .webmetry_hline:after {content:attr(data-upper-value);transform: translate(-50%,-100%);} .webmetry_hline:before {content:attr(data-lower-value);margin-top:3px;transform: translate(-50%,0);} .webmetry_vline:after {content:attr(data-upper-value);transform: translate(-100%,-50%);} .webmetry_vline:before {content:attr(data-lower-value);transform: translate(0,-50%);}";
+    ils.innerHTML = "%%CSS%%";
     document.body.appendChild(ils);
     renderGrid();
   }
