@@ -34,6 +34,6 @@ done
 
 CSSCONTENT=`cat $SSOUTPATH`
 FIND="%%CSS%%"
-sed -i "" "s/${FIND}/${CSSCONTENT}/g" $JSOUTPATH
+perl -pi -e "s/${FIND}/${CSSCONTENT}/g" $JSOUTPATH
 
 rm -f $SSOUTPATH
