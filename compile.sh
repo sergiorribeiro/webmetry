@@ -32,7 +32,7 @@ do
   cat $OUTPATH >> $SSOUTPATH
 done
 
-CSSCONTENT=`cat $SSOUTPATH`
+CSSCONTENT="$(cat $SSOUTPATH)"
 FIND="%%CSS%%"
 perl -pi -e "s/${FIND}/${CSSCONTENT}/g" $JSOUTPATH
 
