@@ -23,10 +23,10 @@ It's easy.
 Just add the following script tag to your page:  
 ```html
 <script 
-  src="<path to output.js>" 
-  data-grid-config="<config. see below>"
-  data-axle-config="<config. see below>"
-  data-measurement-tape-config="<config. see below>"
+  src="https://cdn.jsdelivr.net/gh/sergiorribeiro/webmetry/output.js" 
+  data-grid-config="until:800;columns:8;margin:2px;gutter:2px;gutterColor:rgba(0,0,0,.6);columnColor:rgba(0,0,0,.4)|until:1000;columns:10;margin:2px;gutter:4px;gutterColor:rgba(0,0,0,.6);columnColor:rgba(0,0,0,.4)|until:9999;columns:12;margin:2px;gutter:8px;gutterColor:rgba(0,0,0,.6);columnColor:rgba(0,0,0,.4)"
+  data-axle-config="axleColor:rgba(0,0,0,.5);gripColor:rgba(190,0,0,1)"
+  data-measurement-tape-config="tapeColor:rgba(0,0,0,.5);gripColor:rgba(180,0,0,.5);fixedGuideColor:rgba(100,0,0,.8);orientedGuideColor:rgba(0,0,100,.8)"
 ></script>
 ```
 

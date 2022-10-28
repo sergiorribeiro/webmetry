@@ -271,7 +271,7 @@ class WebmetryMeasurementTape {
 
     const deltaX = Math.abs(pts.b.x-pts.a.x);
     const deltaY = Math.abs(pts.b.y-pts.a.y);
-    const angle = (Math.atan2(deltaY, deltaX) * 180) / Math.PI;
+    let angle = (Math.atan2(deltaY, deltaX) * 180) / Math.PI;
     while (angle >= 360) angle -= 360;
     while (angle < 0) angle += 360;
 
