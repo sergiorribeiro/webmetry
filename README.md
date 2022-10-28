@@ -23,11 +23,11 @@ It's easy.
 Just add the following script tag to your page:  
 ```html
 <script 
-    src="https://raw.githubusercontent.com/sergiorribeiro/webmetry/master/output.js" 
-    data-grid-config=""
-    data-axle-config=""
-    data-measurement-tape-config=""
-  ></script>
+  src="https://raw.githubusercontent.com/sergiorribeiro/webmetry/master/output.js" 
+  data-grid-config=""
+  data-axle-config=""
+  data-measurement-tape-config=""
+></script>
 ```
 
 ### Possible values for `data-grid-config`
