@@ -23,10 +23,10 @@ It's easy.
 Just add the following script tag to your page:  
 ```html
 <script 
-  src="https://raw.githubusercontent.com/sergiorribeiro/webmetry/master/output.js" 
-  data-grid-config=""
-  data-axle-config=""
-  data-measurement-tape-config=""
+  src="<path to output.js>" 
+  data-grid-config="<config. see below>"
+  data-axle-config="<config. see below>"
+  data-measurement-tape-config="<config. see below>"
 ></script>
 ```
 
